@@ -35,7 +35,7 @@ def hit?
   decision = get_user_input
   if decision == 'h'
     deal_card
-  elif decision != 'h' || decision != 's'
+  elif decision != 'h' or decision != 's'
     invalid_command
   end
 end
