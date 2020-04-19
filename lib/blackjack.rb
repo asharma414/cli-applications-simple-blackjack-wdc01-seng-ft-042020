@@ -33,7 +33,7 @@ def initial_round
 end
 
 def hit?
-
+  binding.pry
 end
 
 def invalid_command
