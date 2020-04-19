@@ -32,7 +32,7 @@ def initial_round
   sum
 end
 
-def hit?
+def hit?(card)
   prompt_user
   binding.pry
 end
