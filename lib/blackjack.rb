@@ -17,7 +17,7 @@ def prompt_user
 end
 
 def get_user_input
-  decision = gets.chomp
+  gets.chomp
 end
 
 def end_game(total)
