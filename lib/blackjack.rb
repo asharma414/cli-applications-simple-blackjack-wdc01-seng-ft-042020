@@ -32,7 +32,7 @@ end
 
 def hit?
   prompt_user
-  # decision = get_user_input
+  decision = get_user_input
   # if decision == 'h'
   #   deal_card
   # elif decision != 'h' or decision != 's'
